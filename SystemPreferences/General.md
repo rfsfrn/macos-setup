@@ -4,6 +4,12 @@
 アピアランス：
 -------------
 
+外観を「グラファイト」にする
+
+```sh
+defaults write NSGlobalDomain 'AppleAquaColorVariant' -int 6
+```
+
 メニューバーと Dock を暗くする
 ------------------------------
 
