@@ -13,6 +13,12 @@ defaults write NSGlobalDomain 'AppleAquaColorVariant' -int 6
 メニューバーと Dock を暗くする
 ------------------------------
 
+メニューバーと Dock を「暗くする」
+
+```sh
+defaults write NSGlobalDomain 'AppleInterfaceStyle' -string 'Dark'
+```
+
 メニューバーを自動的に隠す／表示
 --------------------------------
 
