@@ -22,6 +22,12 @@ defaults write NSGlobalDomain 'AppleInterfaceStyle' -string 'Dark'
 メニューバーを自動的に隠す／表示
 --------------------------------
 
+メニューバーを自動的に「隠す」
+
+```sh
+defaults write NSGlobalDomain '_HIHideMenuBar' -bool true
+```
+
 強調表示色：
 -----------
 
