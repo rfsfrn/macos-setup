@@ -34,6 +34,12 @@ defaults write NSGlobalDomain '_HIHideMenuBar' -bool true
 サイドバーのアイコンサイズ：
 ---------------------------
 
+サイドバーのアイコンサイズを「小」にする
+
+```
+defaults write NSGlobalDomain 'NSTableViewDefaultSizeMode' -int 1
+```
+
 スクロールバーの表示：
 ---------------------
 
