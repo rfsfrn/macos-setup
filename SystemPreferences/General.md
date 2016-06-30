@@ -43,6 +43,12 @@ defaults write NSGlobalDomain 'NSTableViewDefaultSizeMode' -int 1
 スクロールバーの表示：
 ---------------------
 
+スクロールバーの表示を「常に表示」にする
+
+```
+defaults write NSGlobalDomain 'AppleShowScrollBars' -string 'Always'
+```
+
 スクロールバーのクリック時：
 ---------------------------
 
