@@ -28,3 +28,8 @@ Dock を自動的に隠す／表示
 起動済みのアプリケーションにインジケータを表示
 ----------------------------------------------
 
+起動済みのアプリケーションにインジケータを「表示する」
+
+```sh
+defaults write com.apple.dock 'show-process-indicators' -bool true
+```
