@@ -64,6 +64,12 @@ defaults write NSGlobalDomain 'AppleScrollerPagingBehavior' -bool true
 書類を閉じるときに変更内容を保持するかどうかを確認
 --------------------------------------------------
 
+書類を閉じるときに変更内容を保持するかどうかを「確認する」
+
+```
+defaults write NSGlobalDomain 'NSCloseAlwaysConfirmsChanges' -bool true
+```
+
 アプリケーションを終了するときにウインドウを閉じる
 --------------------------------------------------
 
