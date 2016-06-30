@@ -52,6 +52,12 @@ defaults write NSGlobalDomain 'AppleShowScrollBars' -string 'Always'
 スクロールバーのクリック時：
 ---------------------------
 
+スクロールバーのクリック時は「クリックされた場所にジャンプ」にする
+
+```
+defaults write NSGlobalDomain 'AppleScrollerPagingBehavior' -bool true
+```
+
 デフォルト Web ブラウザ：
 ------------------------
 
