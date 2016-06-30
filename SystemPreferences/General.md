@@ -73,6 +73,12 @@ defaults write NSGlobalDomain 'NSCloseAlwaysConfirmsChanges' -bool true
 アプリケーションを終了するときにウインドウを閉じる
 --------------------------------------------------
 
+アプリケーションを終了するときにウィンドウを「閉じる」
+
+```
+defaults write NSGlobalDomain 'NSQuitAlwaysKeepsWindows' -bool false
+```
+
 最近使った項目：
 ---------------
 
