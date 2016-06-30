@@ -8,3 +8,4 @@ Summary
     * [一般](SystemPreferences/General.md)
     * [Dock](SystemPreferences/Dock.md)
 * [アプリケーション](Applications/README.md)
+    * [Command Line Tools インストール](CommandLineTools/README.md)
