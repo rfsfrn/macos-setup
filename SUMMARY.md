@@ -7,6 +7,7 @@ Summary
 * [システム環境設定](SystemPreferences/README.md)
     * [一般](SystemPreferences/General.md)
     * [Dock](SystemPreferences/Dock.md)
+    * [Mission Control](SystemPreferences/MissionControl.md)
 * [アプリケーション](Applications/README.md)
     * [Command Line Tools インストール](CommandLineTools/README.md)
     * [Homebrew インストール](Homebrew/README.md)
