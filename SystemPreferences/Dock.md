@@ -7,6 +7,18 @@ Dock
 拡大：
 -----
 
+拡大「する」
+
+```sh
+defaults write com.apple.dock 'magnification' -bool true
+```
+
+拡大するときのアイコンサイズを「72」にする
+
+```sh
+defaults write com.apple.dock 'largesize' -int 72
+```
+
 画面上の位置：
 -------------
 
