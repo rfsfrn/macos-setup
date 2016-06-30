@@ -9,3 +9,4 @@ Summary
     * [Dock](SystemPreferences/Dock.md)
 * [アプリケーション](Applications/README.md)
     * [Command Line Tools インストール](CommandLineTools/README.md)
+    * [Homebrew インストール](Homebrew/README.md)
