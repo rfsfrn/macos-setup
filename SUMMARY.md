@@ -6,6 +6,7 @@ Summary
 * [システムアップデート](OperatingSystem/SoftwareUpdate.md)
 * [システム環境設定](SystemPreferences/README.md)
     * [一般](SystemPreferences/General.md)
+    * [デスクトップとスクリーンセーバ](SystemPreferences/Desktop&Screensaver.md)
     * [Dock](SystemPreferences/Dock.md)
     * [Mission Control](SystemPreferences/MissionControl.md)
 * [アプリケーション](Applications/README.md)
