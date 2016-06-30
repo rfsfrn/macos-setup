@@ -4,6 +4,12 @@ Dock
 サイズ：
 -------
 
+サイズを「36」にする
+
+```sh
+defaults write com.apple.dock 'tilesize' -int 36
+```
+
 拡大：
 -----
 
