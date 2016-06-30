@@ -31,6 +31,12 @@ defaults write NSGlobalDomain '_HIHideMenuBar' -bool true
 強調表示色：
 -----------
 
+強調表示色を「グリーン」にする
+
+```sh
+defaults write NSGlobalDomain 'AppleHighlightColor' -string '0.752941 0.964706 0.678431'
+```
+
 サイドバーのアイコンサイズ：
 ---------------------------
 
