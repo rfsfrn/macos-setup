@@ -10,6 +10,12 @@ Dock
 画面上の位置：
 -------------
 
+画面上の位置を「下」にする
+
+```sh
+defaults write com.apple.dock 'orientation' -string 'bottom'
+```
+
 ウインドウをしまうときのエフェクト：
 -----------------------------------
 
