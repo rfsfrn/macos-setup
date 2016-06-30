@@ -42,7 +42,7 @@ defaults write NSGlobalDomain 'AppleHighlightColor' -string '0.752941 0.964706 0
 
 サイドバーのアイコンサイズを「小」にする
 
-```
+```sh
 defaults write NSGlobalDomain 'NSTableViewDefaultSizeMode' -int 1
 ```
 
@@ -51,7 +51,7 @@ defaults write NSGlobalDomain 'NSTableViewDefaultSizeMode' -int 1
 
 スクロールバーの表示を「常に表示」にする
 
-```
+```sh
 defaults write NSGlobalDomain 'AppleShowScrollBars' -string 'Always'
 ```
 
@@ -60,7 +60,7 @@ defaults write NSGlobalDomain 'AppleShowScrollBars' -string 'Always'
 
 スクロールバーのクリック時は「クリックされた場所にジャンプ」にする
 
-```
+```sh
 defaults write NSGlobalDomain 'AppleScrollerPagingBehavior' -bool true
 ```
 
@@ -72,7 +72,7 @@ defaults write NSGlobalDomain 'AppleScrollerPagingBehavior' -bool true
 
 書類を閉じるときに変更内容を保持するかどうかを「確認する」
 
-```
+```sh
 defaults write NSGlobalDomain 'NSCloseAlwaysConfirmsChanges' -bool true
 ```
 
@@ -81,7 +81,7 @@ defaults write NSGlobalDomain 'NSCloseAlwaysConfirmsChanges' -bool true
 
 アプリケーションを終了するときにウィンドウを「閉じる」
 
-```
+```sh
 defaults write NSGlobalDomain 'NSQuitAlwaysKeepsWindows' -bool false
 ```
 
