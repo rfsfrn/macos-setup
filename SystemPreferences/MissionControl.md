@@ -34,6 +34,12 @@ defaults write com.apple.dock 'expose-group-by-app' -bool true
 Dashboard：
 ----------
 
+Dashboard を「切」にする
+
+```sh
+defaults write com.apple.dashboard 'enabled-state' -int 1
+```
+
 Mission Control：
 ----------------
 
