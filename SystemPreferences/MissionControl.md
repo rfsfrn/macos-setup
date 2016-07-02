@@ -22,6 +22,12 @@ defaults write NSGlobalDomain 'AppleSpacesSwitchOnActivate' -bool false
 ウインドウをアプリケーションごとにグループ化
 --------------------------------------------
 
+ウインドウをアプリケーションごとに「グループ化する」
+
+```sh
+defaults write com.apple.dock 'expose-group-by-app' -bool true
+```
+
 ディスプレイごとに個別の操作スペース
 ------------------------------------
 
