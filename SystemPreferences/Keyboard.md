@@ -6,6 +6,10 @@
 
 ### キーのリピート
 
+```sh
+defaults write NSGlobalDomain 'KeyRepeat' -int 2
+```
+
 ### リピート入力認識までの時間
 
 ### F1、F2 などのすべてのキーを標準のファンクションキーとして使用
