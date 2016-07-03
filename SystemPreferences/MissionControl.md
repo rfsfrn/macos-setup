@@ -37,7 +37,7 @@ Dashboard：
 Dashboard を「切」にする
 
 ```sh
-defaults write com.apple.dashboard 'enabled-state' -int 1
+defaults write com.apple.dashboard 'dashboard-enabled-state' -int 1
 ```
 
 Mission Control：
